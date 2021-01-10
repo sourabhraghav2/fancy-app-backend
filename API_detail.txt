@@ -1,0 +1,51 @@
+1). Configure Language
+URI : languages/create
+Method : POST
+Request : {
+  "language": "Chinese",
+  "languageMap": {
+    "1": "般",
+    "2": "安全",
+    "3": "登出",
+    "4": "花式应用",
+    "5": "电子邮件",
+    "6": "example@example.com",
+    "7": "密码",
+    "8": "登录",
+    "9": "建立新帐户",
+    "10": "语言",
+    "11": "隐私",
+    "12": "上市",
+    "13": "私人的",
+    "14": "保存更改",
+    "15": "创建一个新账户"
+  }
+}
+
+
+2). Get createdLanguage
+URI : languages/getLanguage/Chinese
+Method : POST
+Response : {
+    "data": {
+        "1": "般",
+        "2": "安全",
+        "3": "登出",
+        "4": "花式应用",
+        "5": "电子邮件",
+        "6": "example@example.com",
+        "7": "密码",
+        "8": "登录",
+        "9": "建立新帐户",
+        "10": "语言",
+        "11": "隐私",
+        "12": "上市",
+        "13": "私人的",
+        "14": "保存更改",
+        "15": "创建一个新账户"
+    },
+    "isSuccess": true
+}
+
+3). Get all Languages
+/getAll

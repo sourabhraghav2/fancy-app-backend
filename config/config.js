@@ -1,5 +1,5 @@
 const mongodbUrl = 'mongodb://localhost/fancyApp';
-const JWTSECRET  = "somerandomastringforsecret" ;
+const JWTSECRET  = "raghav" ;
 
 module.exports = {
     mongodbUrl,
